@@ -5,7 +5,7 @@
 数据传输使用json字符串，增加拓展性
 
 
-# 启动方法:
+# 启动方法
 服务器：
 linux 下载server 设置DataBase类内的连接数据库函数为自己的mysql账号
 数据库创建user数据库
