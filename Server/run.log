@@ -1,0 +1,142 @@
+nohup: 忽略输入
+Connection successful!
+服务器启动！
+new connect!
+id:3	ip:223.104.228.47	port:13417
+client -> {"data":{"command":"login","name":"test","password":"test"},"user":"NULL"}
+
+client <- {"data":{"isSuccessful":"true","msg":"successful!"},"user":"NULL"}
+
+new connect!
+id:4	ip:223.104.228.47	port:13418
+client：3->disconnect!
+client：4->disconnect!
+new connect!
+id:3	ip:223.104.228.47	port:13419
+client -> {"data":{"command":"register","name":"admin","password":"admin"},"user":"NULL"}
+
+client <- {"data":{"isSuccessful":"true","msg":"successful!"},"user":"NULL"}
+
+client -> {"data":{"command":"login","name":"admin","password":"admin"},"user":"NULL"}
+
+client <- {"data":{"isSuccessful":"true","msg":"successful!"},"user":"NULL"}
+
+new connect!
+id:4	ip:223.104.228.47	port:13420
+client：4->disconnect!
+client：3->disconnect!
+new connect!
+id:3	ip:223.104.228.47	port:13421
+client -> {"data":{"command":"login","name":"admin","password":"adiin"},"user":"NULL"}
+
+client <- {"data":{"isSuccessful":"false","msg":"failed!"},"user":"NULL"}
+
+client -> {"data":{"command":"login","name":"admin","password":"admin"},"user":"NULL"}
+
+client <- {"data":{"isSuccessful":"true","msg":"successful!"},"user":"NULL"}
+
+new connect!
+id:4	ip:223.104.228.47	port:13422
+client：3->disconnect!
+client：4->disconnect!
+new connect!
+id:3	ip:223.104.228.47	port:13423
+client -> {"data":{"command":"login","name":"admin","password":"admin"},"user":"NULL"}
+
+client <- {"data":{"isSuccessful":"true","msg":"successful!"},"user":"NULL"}
+
+new connect!
+id:4	ip:223.104.228.47	port:13424
+client：3->disconnect!
+client：4->disconnect!
+new connect!
+id:3	ip:83.97.20.34	port:63339
+client -> GET / HTTP/1.0
+Host: 8.142.6.179:2222
+Connection: close
+
+
+parse fail! 
+client：3->disconnect!
+new connect!
+id:3	ip:8.210.68.40	port:45064
+client -> GET / HTTP/1.1
+
+
+
+
+parse fail! 
+client：3->disconnect!
+new connect!
+id:3	ip:83.97.20.34	port:36291
+client -> GET / HTTP/1.0
+Host: 8.142.6.179:2222
+Connection: close
+
+
+parse fail! 
+client：3->disconnect!
+new connect!
+id:3	ip:159.223.10.35	port:52318
+new connect!
+id:4	ip:159.223.10.35	port:52320
+client：3->disconnect!
+client：4->disconnect!
+new connect!
+id:3	ip:159.223.10.35	port:54522
+new connect!
+id:4	ip:159.223.10.35	port:54512
+client：3->disconnect!
+client：4->disconnect!
+new connect!
+id:3	ip:89.248.168.51	port:53856
+client -> SSH-2.0-Go
+
+parse fail! 
+client：3->disconnect!
+new connect!
+id:3	ip:143.110.151.188	port:57742
+client：3->disconnect!
+new connect!
+id:3	ip:83.97.20.34	port:28218
+client -> GET / HTTP/1.0
+Host: 8.142.6.179:2222
+Connection: close
+
+
+parse fail! 
+client：3->disconnect!
+new connect!
+id:3	ip:89.248.165.23	port:60121
+client -> 
+parse fail! 
+client：3->disconnect!
+new connect!
+id:3	ip:159.65.124.67	port:47102
+client：3->disconnect!
+new connect!
+id:3	ip:183.136.226.4	port:16523
+client -> SSH-2.0-libssh2_1.4.3
+
+parse fail! 
+client：3->disconnect!
+new connect!
+id:3	ip:183.136.226.4	port:25666
+client -> 
+parse fail! 
+client：3->disconnect!
+new connect!
+id:3	ip:92.118.161.21	port:49462
+client：3->disconnect!
+new connect!
+id:3	ip:89.248.165.23	port:61289
+client -> 
+parse fail! 
+client：3->disconnect!
+new connect!
+id:3	ip:111.30.255.106	port:14329
+client：3->disconnect!
+new connect!
+id:3	ip:111.30.255.106	port:14335
+client -> {"data":{"command":"login","name":"test!","password":"test!"},"user":"NULL"}
+
