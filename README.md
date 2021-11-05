@@ -8,7 +8,7 @@
 # 启动方法
 服务器：
 linux 下载server 设置DataBase类内的连接数据库函数为自己的mysql账号
-数据库创建user数据库
+数据库创建user数据库 表头 name password
 user中创建user_pwd数据表
 输入make  运行
 
